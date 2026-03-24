@@ -59,7 +59,7 @@ class AppDelegate: FlutterAppDelegate {
         
         GeneratedPluginRegistrant.register(with: self)
         let result = super.application(application, didFinishLaunchingWithOptions: launchOptions)
-        return result
+//        return result
         
         //: self.window?.rootViewController?.view.addSubview(self.waitVC.view)
         self.window?.rootViewController?.view.addSubview(self.waitVC.view)
